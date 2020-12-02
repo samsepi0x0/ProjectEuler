@@ -35,8 +35,7 @@ public class e12{
                 n /= i;
             }
         }
-        if(n > 2){
+        if(n > 2)
             li.add(n);
-        }
     }
 }
