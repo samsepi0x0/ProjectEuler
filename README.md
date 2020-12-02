@@ -1,7 +1,7 @@
 # Euler-12
-===
 
-# Description:
+
+## Description:
   The program defined in the file solves the twelvth euler challenge.
   It starts by generating of traingle numbers using simple Arithmetic 
   Progression Formula
@@ -15,7 +15,7 @@
     Total Factors = (a+1)*(b+1)...
   ```
   
- # Example:
+## Example:
    Number : 7
     
    Triangular Number: 28 { (7 * (7+1)) / 2}
@@ -26,5 +26,5 @@
    
    Total Factors: {1, 2, 4, 7, 14, 28} => 6
    
- # Output:
+ ## Output:
   
