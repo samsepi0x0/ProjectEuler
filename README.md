@@ -28,3 +28,4 @@
    
  ## Output:
   
+    ![](https://github.com/samsepi0x0/Euler-12/blob/main/Screenshot%20from%202020-12-03%2004-09-08.png)
