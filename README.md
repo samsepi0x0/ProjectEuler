@@ -1,5 +1,5 @@
 # Euler-12
-==========
+
 
 # Description:
   The program defined in the file solves the twelvth euler challenge.
@@ -17,10 +17,14 @@
   
  # Example:
    Number : 7
+    
    Triangular Number: 28 { (7 * (7+1)) / 2}
-   Prime Factors: [2, 2, 7]
+   
+   Prime Factors: {2, 2, 7}
+   
    Total Number of Factors: 6 { 2^2, 7^1 => (2+1)*(7+1)}
-   Total Factors: [1, 2, 4, 7, 14, 28] => 6
+   
+   Total Factors: {1, 2, 4, 7, 14, 28} => 6
    
  # Output:
   
