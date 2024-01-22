@@ -18,7 +18,7 @@ int nthChampernowne(int n) {
     multiplier *= 10;
     digit++;
   }
-  cout << n << "\t" << multiplier << "\t" << digit << "\t";
+  // cout << n << "\t" << multiplier << "\t" << digit << "\t";
   
   int m2 = 1;
   for(int i = 1; i < digit; i++){
@@ -32,7 +32,7 @@ int nthChampernowne(int n) {
   string value = to_string(val);
   int v = value[p-1] - 48;
 
-  cout << value << "\t" << v << endl;
+  //cout << value << "\t" << v << endl;
   return v;
 }
 
