@@ -25,6 +25,7 @@ int main() {
     if (i == row*row) {
       int res = (pCount / (double)(arr.size() + 1)) * 100;
       //cout << "Row: " << row << "\t" << "Primes: " << pCount << "\t" << "Array length: " << arr.size() + 1 << "\tRatio: " << res << endl;
+
       if (res < 10){
         cout << "Row: " << row << endl;
         break;
@@ -32,6 +33,7 @@ int main() {
         step += 2;
         row += 2;
       }
+    
     }
     else {
       if (isPrime(i))
