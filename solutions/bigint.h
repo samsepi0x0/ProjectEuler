@@ -61,8 +61,6 @@
 
 class bigint {
     private: 
-        std::string str; // only data memeber for strong Big Integer as String. [For signed int, str[0] = '-']
-        
 
         // Function Definitions for Internal Uses
 
@@ -70,8 +68,7 @@ class bigint {
         static std::string add(std::string, std::string);
         static std::string subtract(std::string, std::string);
         static std::string multiply(std::string, std::string);
-        static std::string divide(std::string, std::string);
-
+        static std::string divide(std::string, std::string); 
         static std::string mod(std::string, std::string);
         static std::string shortDivide(std::string, unsigned long long int);
         static std::string maximum(std::string, std::string);
@@ -100,8 +97,9 @@ class bigint {
         static bool isPalindrome(std::string);
         static bool isPrime(std::string);   
 
-
     public: 
+        std::string str;        
+
         // Constructors for big int.
         bigint() {
             str = '0';  //default value
@@ -135,7 +133,7 @@ class bigint {
             stream >> n.str;
             return stream;
         }
-
+        
         /* Operator {+} Overloadings, for different kind of 
         parameter for the programmer's convinience  */
 
