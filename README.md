@@ -78,3 +78,7 @@ index: 0
 
 1000th index of Champernowne's Constant : 3
 ```
+
+## Wikipedia Links:
+  [Continued Fractions Problem 64/65](https://en.wikipedia.org/wiki/Continued_fraction)
+  
