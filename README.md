@@ -80,5 +80,33 @@ index: 0
 ```
 
 ## Wikipedia Links:
-  [Continued Fractions Problem 64/65](https://en.wikipedia.org/wiki/Continued_fraction)
-  
+  [Continued Fractions Problem 64/65/66](https://en.wikipedia.org/wiki/Continued_fraction)
+
+## Problem 66: Diophantine Equations:
+
+    This is a specialized diophantine equation in the form:
+    ```
+        X^2 - D(Y^2) = 1
+    ```
+    and fundamental solutions exist if D is not a perfect square. 
+    The solution (x,y) can be calculated by solving the continued fraction of `sqrt(D)` and evaluating the continued fraction.
+
+    For example : [Read More on wikipedia](https://en.wikipedia.org/wiki/Pell's_equation#Fundamental_solution_via_continued_fractions)
+    ```
+        x^2 - 2(y^2) = 1 
+        
+        here D = 2;
+        so sqrt(D) in continued fractions = [1; (2)], with a period length 1.
+        Solving the continued fraction:
+        sqrt(2) = 1 + 1 
+                     ---
+                      2
+                = 3 / 2 
+
+        And x = 3 and y = 2;
+
+        (3^2) - 2(2*2) = 9 - 8 = 1
+
+    ```
+    Major point to remeber when working with compiled languages is that fundamental solution to certain values of D (421, 461, 881 etc) can go well beyond the range of integer value and thus, a bigger datatype is necessary to compute the values precisely.
+
